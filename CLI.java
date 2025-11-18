@@ -6,7 +6,7 @@ import java.nio.file.Path;
 import java.util.Base64;
 import java.util.Arrays;
 
-public class CliTool {
+public class CLI {
 public static void main(String[] args) throws Exception {
 if (args.length < 1) {
 printUsageAndExit();
