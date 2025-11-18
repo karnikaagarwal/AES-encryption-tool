@@ -14,7 +14,7 @@ import java.util.Base64;
 * 1) Generate a random AES key (recommended for machine-to-machine use).
 * 2) Derive an AES key from a password using PBKDF2 (for passphrase-based encryption).
 */
-public class KeyGen {
+public class SecureKeyGen {
 private static final SecureRandom secureRandom = new SecureRandom();
 
 
